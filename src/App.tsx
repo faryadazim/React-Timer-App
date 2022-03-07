@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-   learn react bcuz mujhy to pasand hi boht hy ...G**** bna kr
+   learn react bcuz mujhy to pasand hi boht hy ...G**** bna kr c krna
     </div>
   );
 }
