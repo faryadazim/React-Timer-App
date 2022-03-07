@@ -10,7 +10,7 @@ script:
 deploy:
   provider:surge
   skip_cleanup: true
-  domain:netlleerer.com
+  domain:melodic-cracker.surge.sh
   project: ./build/
 on:
   branch: master
