@@ -2,7 +2,7 @@ name: Deploying React Timer App (Test Drive Development)
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   build:
@@ -14,9 +14,6 @@ jobs:
         uses: actions/setup-node@v2-beta
         with:
           node-version: 12
-        
-      - name: Install yarn
-        run: npm install --global yarn
       
       - name: Install JS dependencies
         run: npm install
