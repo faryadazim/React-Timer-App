@@ -14,19 +14,19 @@ jobs:
         uses: actions/setup-node@v2-beta
         with:
           node-version: 12
-          
+        
       - name: Install yarn
         run: npm install --global yarn
       
       - name: Install JS dependencies
-        run: yarn install
+        run: npm install
 
 
 
 
     
       - name: Creating build
-        run: yarn build
+        run: npm run build
         env:
           CI: false
 
