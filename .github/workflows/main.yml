@@ -1,4 +1,4 @@
-name: Deploying react app to surge
+name: Deploying React Timer App (TDD)
 
 on:
   push:
