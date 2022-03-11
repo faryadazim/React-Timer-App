@@ -22,6 +22,9 @@ jobs:
 
 
     
+      - name: testing build
+        run: npm test
+    
       - name: Creating build
         run: npm run build
         env:
