@@ -1,6 +1,7 @@
 import React from 'react'
 import {shallow} from 'enzyme'
 import App from './App'
+import Timer from '../Timer/Timer'
 
 
 
@@ -10,9 +11,10 @@ it('Testing rendering of a div', ()=>{
     let container = shallow(<App/>)
     expect(container.find('div').length).toEqual(1)
 }) 
-// it('Testing rendering of a h1', ()=>{
-//     let container = shallow(<App/>)
-//     expect(container.find('h1').length).toEqual(1)
-// })
+it('Testing rendering of Timer Component', ()=>{
+    let container = shallow(<App/>)
+    expect(container.containsMatchingElement(<Timer />)).toEqual(true)
+
+})
 
 })
