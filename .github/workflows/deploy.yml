@@ -1,4 +1,4 @@
-name: Deploying React Timer App (Test Drive Development)
+name: Deploying React Timer App (Test Driven Development)
 
 on:
   push:
