@@ -1,3 +1,5 @@
+# We can use anyone CI/CD here like Git ci/cd or travis but as i dont have Pro version of travis at this point so im using githhub directly for testing purpose also
+
 language: node_js
 node_js:
   - "stable"
